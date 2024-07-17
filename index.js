@@ -44,6 +44,16 @@ function agreeFunction() {
 
     containerElement.innerHTML = secondMsg;
   }, 12000);
+
+  //last Timeout function
+  setTimeout(function () {
+    let lastmsg = `
+<h1>Shall we set the wedding date now...</h1>
+<img src="https://media.giphy.com/media/TuZ8v66TzGeYJW23as/giphy.gif?cid=790b7611dna4ngr7nqsumrxliav947nyot31s39irq6vj2e8&ep=v1_gifs_search&rid=giphy.gif&ct=g"/>
+
+`;
+    containerElement.innerHTML = lastmsg;
+  }, 16000);
 }
 
 noBtn.addEventListener("click", increaseFn);
