@@ -7,6 +7,8 @@ function increaseFn() {
   let currentHeight = yesBtn.clientHeight;
   yesBtn.style.width = currentWidth + 10 + "px";
   yesBtn.style.height = currentHeight + 10 + "px";
+  yesBtn.style.backgroundColor = "red";
+  yesBtn.style.color = "white";
 }
 
 function agreeFunction() {
@@ -23,6 +25,8 @@ are all mine now...
 </h1>
 <img src="https://media.giphy.com/media/lY1F6BJjbRO3m/giphy.gif?cid=790b7611c2cwm1eqv0rhjjdodajq6dntbrkplr3lyhjdrfza&ep=v1_gifs_search&rid=giphy.gif&ct=g"/>
 `;
+
+    containerElement.innerHTML = secondMsg;
   }, 3000);
 }
 
